@@ -2233,7 +2233,7 @@ a {
 .button-bar-royal.activated,
 .bar-royal.activated,
 .royal-border.activated {
-  background-color: #673AB7;
+  background-color: #512DA8;
   color: #fff; }
 
 .royal-900-bg,
@@ -2450,7 +2450,7 @@ a {
 .button-bar-energized-900.activated,
 .bar-energized-900.activated,
 .energized-900-border.activated {
-  background-color: #E65100;
+  background-color: #42A5F5;
   color: #fff; }
 
 .energized-100-bg,
@@ -2542,7 +2542,7 @@ a {
 .button-bar-assertive-900.activated,
 .bar-assertive-900.activated,
 .assertive-900-border.activated {
-  background-color: #B71C1C;
+  background-color: #512DA8;
   color: #fff; }
 
 .assertive-100-bg,
@@ -2684,7 +2684,7 @@ a {
 .royal:active,
 .royal:active *,
 *.royal:active {
-  color: #673AB7; }
+  color: #512DA8; }
 
 .royal-900,
 .royal-900 *,
@@ -2761,7 +2761,7 @@ a {
 .energized-900:active,
 .energized-900:active *,
 *.energized-900:active {
-  color: #E65100; }
+  color: #42A5F5; }
 
 .energized-100,
 .energized-100 *,
@@ -2794,7 +2794,7 @@ a {
 .assertive-900:active,
 .assertive-900:active *,
 *.assertive-900:active {
-  color: #B71C1C; }
+  color: #512DA8; }
 
 .assertive-100,
 .assertive-100 *,
