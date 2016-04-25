@@ -205,6 +205,39 @@ angular.module('starter.controllers', [])
     $scope.$parent.setExpanded(true);
     $scope.$parent.setHeaderFab('right');
 
+    $scope.usuarios = [
+        {"nombre": "Jon Snow", 
+        "edad":"25", 
+        "ciudad":"El muro", 
+        "profesion":"Guardia de la noche", 
+        "email":"bastardo@gmail.com"}, 
+
+        {"nombre": "Tyrion Lannister", 
+        "edad":"30", 
+        "ciudad":"-", 
+        "profesion":"Vividor", 
+        "email":"enano@gmail.com"},
+
+        {"nombre": "Sansa Stark", 
+        "edad":"23", 
+        "ciudad":"Invernalia", 
+        "profesion":"-", 
+        "email":"sansa@gmail.com"},
+
+        {"nombre": "Arya Stark", 
+        "edad":"16", 
+        "ciudad":"Nómada", 
+        "profesion":"-", 
+        "email":"arya@gmail.com"},
+
+        {"nombre": "Hodor", 
+        "edad":"Hodor", 
+        "ciudad":"Hodor", 
+        "profesion":"Hodor", 
+        "email":"hodor@gmail.com"},
+        ];
+
+
     $timeout(function() {
         ionicMaterialMotion.fadeSlideIn({
             selector: '.animate-fade-slide-in .item'
@@ -220,6 +253,7 @@ angular.module('starter.controllers', [])
     $scope.$parent.showHeader();
     $scope.$parent.clearFabs();
     $scope.$parent.setHeaderFab('left');
+
 
     // Delay expansion
     $timeout(function() {
